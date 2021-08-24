@@ -136,7 +136,7 @@ let turnosSelec = [];
 
 
 //----llevar datos a localStorage----/
-    function saveLocal(dato) {
+    let saveLocal =dato => {
             let aJson = JSON.stringify(dato)
             localStorage.setItem(`clientes`, aJson)
 
